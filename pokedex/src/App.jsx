@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div style={{ padding: "2rem", fontFamily: "Arial, sans-serif" }}>
-      <h1>Pokémon TCG Search</h1>
+      <h1>Pokémon TCG Pokedex</h1>
       <form onSubmit={handleSubmit(onSubmit)} style={{ marginBottom: "1rem" }}>
         <input
           {...register("name", { required: true })}
